@@ -11,6 +11,7 @@ while true; do
         y)
             #Kopiert die Dateien von configs/ in das Home-Verzeichnis (~)
             cp -rfv configs/. ~/
+
             echo "Configs installed."
             break  #Beendet die Schleife nach erfolgreicher Installation
             ;;
