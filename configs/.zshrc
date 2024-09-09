@@ -17,11 +17,8 @@ eval "$(starship init zsh)"
 alias ls="ls -a --color=auto"
 #alias l="eza"
 #alias la="eza -l"
-alias nf="neofetch"
-alias c="clear && neofetch"
-alias update="sudo pacman -Syu"
-alias install="sudo pacman -S"
-alias gpti="tgpt --provider opengpts -i"
+alias c="clear"
+alias la="ls -la --color=auto"
 
 # Plugins
 #source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

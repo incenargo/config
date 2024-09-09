@@ -10,7 +10,7 @@ while true; do
     case $input in
         y)
             #Kopiert die Dateien von configs/ in das Home-Verzeichnis (~)
-            cp -rf configs/ ~/
+            cp -rfv configs/ ~/
             echo "Configs installed."
             break  #Beendet die Schleife nach erfolgreicher Installation
             ;;
